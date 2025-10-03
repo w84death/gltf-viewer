@@ -1,0 +1,74 @@
+# Compiled executable
+gltf-viewer
+gltf-viewer.exe
+
+# Object files
+*.o
+*.obj
+
+# Libraries
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# Debug files
+*.dSYM/
+*.pdb
+*.ilk
+
+# Build directories
+build/
+bin/
+obj/
+Debug/
+Release/
+lib/windows
+# Editor temporary files
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# CLion / IntelliJ
+.idea/
+cmake-build-*/
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Core dumps
+core
+*.core
+vgcore.*
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.bak
+
+# Test models (optional - uncomment if you don't want to track test models)
+# *.glb
+# *.gltf
+# !ibm-pc.glb  # Keep the example model
