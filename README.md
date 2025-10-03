@@ -1,11 +1,12 @@
 # GLTF Viewer
 
 A lightweight and minimal GLTF/GLB file viewer written in C using RayLib. This program provides a simple way to view 3D models exported from Blender or other 3D modeling software with an intuitive camera control system.
+![screenshot](screenshot1.png)
 
 ## Features
 
 - **GLTF/GLB Support**: Load and display GLTF 2.0 and GLB (binary GLTF) files
-- **Dual Camera Modes**: 
+- **Dual Camera Modes**:
   - **Orbit Camera**: Traditional 3D model viewer with rotate, pan, and zoom
   - **Isometric Strategy Camera**: RTS-style camera with fixed angle, WASD panning, and edge scrolling
 - **Interactive Controls**: Intuitive mouse and keyboard controls for both camera modes
@@ -24,6 +25,8 @@ A lightweight and minimal GLTF/GLB file viewer written in C using RayLib. This p
 - **Grid Display**: Optional grid for spatial reference
 - **Auto-scaling**: Automatically adjusts camera distance based on model size
 - **Coordinate Axes**: Visual reference for X (red), Y (green), and Z (blue) axes
+
+![screenshot 2](screenshot2.png)
 
 ## Requirements
 
@@ -169,7 +172,7 @@ The compact info panel shows:
 - Current camera mode (ORBIT or ISOMETRIC)
 - **MODEL**: Shows current camera mode (ORBIT or ISOMETRIC)
 - Number of meshes
-- Total triangle count  
+- Total triangle count
 - Total vertex count
 - Active units count and selected units
 - Active control groups (shows which groups have units)
